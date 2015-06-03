@@ -151,16 +151,5 @@
 </description>
     </item>
     
-    <item>
-      <title>post</title>
-      <link>http://localhost:1313/post/2015/06/03/post/</link>
-      <pubDate>Wed, 03 Jun 2015 09:08:33 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/2015/06/03/post/</guid>
-      <description>&lt;p&gt;test
-日本語&lt;/p&gt;
-</description>
-    </item>
-    
   </channel>
 </rss>
