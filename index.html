@@ -1,67 +1,79 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BABAROT</title>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44183504-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'UA-44183504-3');
+        </script>
 
-    <link rel="shortcut icon" href="/favicon.ico" />
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Pro:400,600" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link href="./project.css" rel="stylesheet">
+        <title>Masaki ISHIYAMA</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <div class="headshot">
+                    <img src="me.jpg">
+                </div>
+                <div class="tldr">
+                    <h1>Masaki ISHIYAMA</h1>
+                    <p class="intro">
+                        I'm a YAML engineer of Microservices Platform at Mercari, Inc.
+                        a.k.a BABAROT (@b4b4r07)
+                        #kubernetes #microservices #terraform #go #bash
+                    </p>
+                    <p class="accounts">
+                        <span>b4b4r07@gmail.com</span>
+                        <!-- <span><a href="https://github.com/b4b4r07">GitHub</a></span>   -->
+                        <!-- <span><a href="https://twitter.com/b4b4r07">Twitter</a></span> -->
+                        <!-- <span><a href="https://tellme.tokyo">Blog</a></span>           -->
+                        <span><a href="https://github.com/b4b4r07"><i class="fab fa-github"></i></a></span>
+                        <span><a href="https://twitter.com/b4b4r07"><i class="fab fa-twitter"></i></a></span>
+                        <span><a href="https://tellme.tokyo"><i class="fas fa-blog"></i></a></span>
+                        <!-- <a href="https://github.com/b4b4r07"><i class="fab fa-github"></i></a>   -->
+                        <!-- <a href="https://twitter.com/b4b4r07"><i class="fab fa-twitter"></i></a> -->
+                        <!-- <a href="https://tellme.tokyo"><i class="fas fa-blog"></i></a>           -->
+                    </p>
+                </div>
+            </header>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome-animation.min.css">
+            <section>
+                <h1>Projects</h1>
+                <ul>
+                    <li>
+                        <h2><a href="gomi">gomi</a></h2>
+                        <p>
+                            Trash can in CLI
+                        </p>
+                    </li>
+                    <li>
+                        <h2><a href="gist">gist</a></h2>
+                        <p>
+                            A simple gist editor for CLI
+                        </p>
+                    </li>
+                    <li>
+                        <h2><a href="stein">stein</a></h2>
+                        <p>
+                            A linter for config files with a customizable rule set
+                        </p>
+                    </li>
+                </ul>
+            </section>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  </head>
-
-  <body>
-    <section class="container">
-      <p><h2 class="text-center" style="font-family:'Lato', sans-serif;">BABAROT</h2></p>
-
-      <!--
-      <p>
-        <div class="text-center">
-            <img class="img-thumbnail" width="120" height="120" src="http://www.gravatar.com/avatar/8238c3c0be55b887aa9d6d59bfefa504.png" alt="">
-        </div>
-      </p>
-      -->
-
-      <p>
-        <div class="text-center">
-          <ul class="list-inline">
-            <li><a href="https://github.com/b4b4r07" target="_blank"><i class="fa fa-github-square fa-5x"></i></a></li>
-            <li><a href="https://twitter.com/b4b4r07" target="_blank"><i class="fa fa-twitter-square fa-5x"></i></a></li>
-            <li><a href="https://qiita.com/b4b4r07" target="_blank"><i class="fa fa-pencil-square fa-5x"></i></a></li>
-          </ul>
-        </div>
-        <div class="text-center">
-          <ul class="list-inline">
-            <li><a href="#"><i class="fa fa-facebook-square fa-5x"></i></a></li>
-            <li><a href="http://tellme.tokyo"><i class="fa fa-smile-o fa-5x fa-spin faa-ring animated-hover"></i></a></li>
-            <li><a href="https://instagram.com/b4b4r07" target="_blank"><i class="fa fa-instagram fa-5x"></i></a></li>
-          </ul>
-        </div>
-        <div class="text-center">
-          <ul class="list-inline">
-            <li><a href="http://b4b4r07.hatenadiary.com" target="_blank"><i class="fa fa-rss-square fa-5x"></i></a></li>
-            <li><a href="mailto:b4b4r07@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-5x e"></i></a></li>
-            <li><a href="tel:+09012345678" target="_blank"><i class="fa fa-phone-square fa-5x"></i></a></li>
-          </ul>
-        </div>
-      </p>
-    </section>
-
-    <footer class="text-center">
-      <p><i class="fa fa-copyright"></i> 2015 b4b4r07</p>
-    </footer>
-  </body>
-
+            <section>
+                <h1>Work Experience</h1>
+                <ul>
+                    <li>Mercari, Inc.</li>
+                </ul>
+            </section>
+        </main>
+    </body>
 </html>
