@@ -5,7 +5,7 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 98vh; /* 100vh */
 }
 
 footer {
@@ -61,6 +61,7 @@ main > header {
 .headshot img {
     max-width: 120px;
     border-radius: 2px;
+    margin-right: 20px;
 }
 
 .tldr {
