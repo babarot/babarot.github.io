@@ -8,6 +8,12 @@ body {
   min-height: 98vh; /* 100vh */
 }
 
+#content {
+  margin: 1.1rem auto;
+  padding: 0 1.5rem;
+  max-width: 40rem;
+}
+
 a:link, a:visited {
   color: #fc0000;
 }
