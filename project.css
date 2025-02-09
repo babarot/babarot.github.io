@@ -61,7 +61,6 @@ main > header {
 .headshot img {
     max-width: 120px;
     border-radius: 2px;
-    margin-right: 20px;
 }
 
 .tldr {
