@@ -73,12 +73,12 @@ main > header {
   border-radius: 50%;
   object-fit: cover;     /* adjust the image to fit in the container */
   aspect-ratio: 1 / 1;   /* make square */
-  transform: scale(1.1); /* zoom-in */
+  /* transform: scale(1.1); */ /* zoom-in */
   clip-path: circle(58px at center);
 }
 
 .tldr {
-  padding-left: 1.5rem;
+  padding-left: 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -115,6 +115,6 @@ main > header {
 /* Mobile */
 @media (max-width: 480px) {
   .tldr {
-    padding-left: 1.2rem;
+    padding-left: 1.5rem;
   }
 }
