@@ -102,6 +102,16 @@ footer {
   content: " / ";
 }
 
+#tokyo-jp::before {
+  content: "🇯🇵";
+}
+
+@media (prefers-color-scheme: dark) {
+  #tokyo-jp::before {
+    content: "🗼";
+  }
+}
+
 /* Dark-mode colors */
 @media (prefers-color-scheme: dark) {
   body {
