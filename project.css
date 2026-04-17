@@ -59,6 +59,11 @@ a:link, a:visited {
   color: #fc0000;
 }
 
+::selection {
+  background: rgba(252, 0, 0, 0.3);
+  color: #fc0000;
+}
+
 footer {
   text-align: center;
   margin-top: auto;
@@ -120,6 +125,11 @@ footer {
   }
 
   a:link, a:visited {
+    color: #e94e31;
+  }
+
+  ::selection {
+    background: rgba(233, 78, 49, 0.3);
     color: #e94e31;
   }
 }
